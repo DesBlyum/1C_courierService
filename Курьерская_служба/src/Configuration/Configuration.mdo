@@ -30,5 +30,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.КурьерскаяСлужба</subsystems>
-  <catalogs>Catalog.СменыРаботы</catalogs>
+  <catalogs>Catalog.РабочиеСмены</catalogs>
 </mdclass:Configuration>
