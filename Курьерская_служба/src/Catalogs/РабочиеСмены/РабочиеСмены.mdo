@@ -20,6 +20,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Рабочая смена</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список рабочих смен</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -31,6 +39,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РабочиеСмены.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РабочиеСмены.Form.ФормаСписка</defaultListForm>
   <attributes uuid="6e09314f-6e71-461a-9cca-d079ad4bdba1">
     <name>ВремяНачала</name>
     <synonym>
@@ -69,4 +79,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="efcc4da5-f2f1-4af1-a144-bc2cecda5912">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3b6f7701-2bcb-4a12-af1a-5d494dc48b56">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

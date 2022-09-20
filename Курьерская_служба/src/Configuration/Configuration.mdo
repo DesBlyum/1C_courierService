@@ -30,5 +30,12 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.КурьерскаяСлужба</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.ДобавлениеЗаявокНаПеревозку</roles>
+  <roles>Role.ДобавлениеИзменениеЗаявокНаПеревозку</roles>
+  <roles>Role.ПросмотрОтчетовПоЗаявкамНаПеревозку</roles>
   <catalogs>Catalog.РабочиеСмены</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <documents>Document.ЗаявкаНаПеревозку</documents>
 </mdclass:Configuration>
