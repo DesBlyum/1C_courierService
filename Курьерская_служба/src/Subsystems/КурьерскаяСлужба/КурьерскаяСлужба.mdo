@@ -11,4 +11,6 @@
     <picture>CommonPicture.ОбщаяКартинка</picture>
   </picture>
   <content>Catalog.РабочиеСмены</content>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>Document.ЗаявкаНаПеревозку</content>
 </mdclass:Subsystem>

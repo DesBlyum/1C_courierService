@@ -37,5 +37,7 @@
   <roles>Role.ПросмотрОтчетовПоЗаявкамНаПеревозку</roles>
   <catalogs>Catalog.РабочиеСмены</catalogs>
   <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <documents>Document.ЗаявкаНаПеревозку</documents>
 </mdclass:Configuration>

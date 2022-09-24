@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03524b2b-35f0-4836-8b4f-9eb8be94c36c">
+  <producedTypes>
+    <objectType typeId="1cf9d496-88bf-4684-9889-aedfe8337ed3" valueTypeId="05f8da0f-bb4a-4fc5-8cc9-d79df7d3588b"/>
+    <refType typeId="23b46a98-d19b-4e08-b623-5b6e6975f5cb" valueTypeId="3a04b1cb-eae7-48b1-9449-7fa77ef6af52"/>
+    <selectionType typeId="23e69d30-ac88-4c25-9e71-f93a817122b3" valueTypeId="97e4dedc-daab-4362-9838-01050c70fb4f"/>
+    <listType typeId="e78163d1-13e2-4a43-b298-d2a6fed9ca6c" valueTypeId="8698a300-4493-414a-866a-2b750e5b11b3"/>
+    <managerType typeId="254e763a-b16a-4996-80ff-d91e181d95e5" valueTypeId="0738b282-b19e-4615-83bf-d085dd094d03"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтруктураПредприятия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Структура предприятия</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список подразделений, описывающих структуру предприятия. </value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
